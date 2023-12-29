@@ -16,8 +16,6 @@
     margin-top: 15%;
   }
 
-
-  
   h1 {
     font-family: 'Playfair Display', serif;
     padding: 15px 30px;
@@ -51,10 +49,6 @@
   .image-container {
     position: relative;
     display: inline-block; 
-  }
-
-  .image-container img {
-    display: block;
   }
 
   .second-image {
