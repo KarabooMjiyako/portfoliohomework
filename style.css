@@ -1,13 +1,8 @@
-:root{
-    --primary-color: #FFB3C1;
-    --button-color:#A4133C;
-  }
-
-  .body{
+.body{
     height: 100vh;
     position: relative;
     margin: 0;
-    background-color: var(--primary-color);
+    background: radial-gradient(circle, #ff8080, #FFB3C1);
   }
 
   .container{
@@ -45,9 +40,36 @@
    border-radius: 6px;
   }
 
+  .image-container {
+    position: relative;
+    display: inline-block; 
+  }
+
+  .image-container img {
+    display: block;
+  }
+
+  .second-image {
+    position: absolute;
+    margin-top: -212%;
+    right: 0;
+    background: transparent;
+    mix-blend-mode: multiply;
+    transform: rotate(180deg);
+  }
+
   a {
     padding: 15px 30px;
     margin-top: 25%;
+  }
+
+  .first-image {
+    position: absolute;
+    margin-top: -2%;
+    left: 0;
+    background: transparent;
+    mix-blend-mode: multiply;
+    transform: rotate(180deg);
   }
   
   .bg{
