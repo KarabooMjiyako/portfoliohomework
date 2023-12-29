@@ -46,14 +46,9 @@
    height: 50%
   }
 
-  .image-container {
-    position: relative;
-    display: inline-block; 
-  }
-
   .second-image {
     position: absolute;
-    margin-top: -215%;
+    margin-top: -185%;
     right: 0;
     background: transparent;
     mix-blend-mode: multiply;
