@@ -1,3 +1,10 @@
+:root{
+    --primary-color: #FFB3C1;
+    --button-color:#A4133C;
+    --background: radial-gradient(circle, #ff8080, #FFB3C1);
+    --img: url('https://i.ibb.co/R0mRd8N/image.png')
+  }
+  
 .body{
     height: 100vh;
     position: relative;
